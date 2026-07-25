@@ -1,0 +1,91 @@
+# Automated Wheel Installation and Removal Cell
+
+> PLC-coordinated automation project for removing wheels from a small vehicle chassis, feeding replacement wheels from magazines, picking them up with a gripper, and installing them onto axles.
+
+![Project showcase placeholder](images/showcase/README.md)
+
+## Project Status
+
+This repository is being built while final machine integration is still in progress. Final photos, NX assembly screenshots, wiring diagrams, and operation videos will be added after the physical build is completed.
+
+Current repo focus:
+
+- system architecture
+- component list and hardware overview
+- electrical wiring tables
+- PLC sequence description
+- ESP32 motion-control documentation
+- testing notes and troubleshooting history
+
+## System Summary
+
+The machine is a small manufacturing-style automation cell. A PLC coordinates the main sequence and communicates with ESP32-based motion controllers. The system uses stepper-driven axes, servo grippers, wheel magazine servos, photoelectric sensors, a capacitive sensor, relay interfaces, and a solenoid-actuated wheel release mechanism.
+
+## Main Features
+
+- PLC-based start, stop, reset, and sequence control
+- ESP32 motion control for X/Y/Z stepper axes
+- Servo gripper for wheel pickup and placement
+- Separate wheel magazine controller
+- Sensor-based car and wheel presence detection
+- Start/done handshaking between PLC and controllers
+- Software travel limits and homing routines
+- Emergency stop / abort input to motion controllers
+- Relay-isolated outputs for PLC and actuator interfaces
+
+## Repository Map
+
+| File / Folder | Purpose |
+|---|---|
+| `01_Project_Overview.md` | quick explanation of the machine and goals |
+| `02_BOM_and_Parts.md` | bill of materials overview and parts notes |
+| `03_System_Architecture.md` | controller, sensor, and actuator layout |
+| `04_Electrical_Wiring.md` | wiring tables, pinouts, and power notes |
+| `05_PLC_Sequence.md` | PLC state sequence and handshake logic |
+| `06_Motion_Control.md` | ESP32 stepper/servo control overview |
+| `07_Testing_Log.md` | testing, calibration, and troubleshooting notes |
+| `08_Future_Work.md` | future improvements and industrial upgrades |
+| `code/` | PLC and ESP32 code folders |
+| `images/` | photos, CAD screenshots, wiring images, diagrams |
+| `videos/` | operation clips and demo videos |
+| `docs/` | extra documents such as BOM files, PDFs, and reports |
+
+## Technologies Used
+
+- PLC control
+- ESP32 microcontrollers
+- Stepper motors and stepper drivers
+- Servo motors
+- Capacitive and photoelectric sensors
+- Relay / optocoupler signal interfaces
+- 24 VDC solenoid actuation
+- 3D printed mechanical parts
+- Siemens NX for digital twin / CAD assembly
+- Node-RED or IoT interface planned for demonstration requirements
+
+## High-Level Sequence
+
+1. Operator resets machine and sends system to home position.
+2. Car body is detected in the loading area.
+3. PLC checks sensor conditions and starts the motion sequence.
+4. Gantry removes existing wheels.
+5. Magazine system releases replacement wheel.
+6. Gripper picks up replacement wheel.
+7. Gantry installs wheel onto axle.
+8. Process repeats for second wheel.
+9. PLC receives done signal and marks cycle complete.
+
+## Media To Add
+
+- final machine photo
+- 10–30 second operation video
+- NX assembly screenshot
+- wiring/control panel photo
+- gripper close-up
+- wheel magazine close-up
+- sensor placement photos
+- PLC/HMI/Node-RED screenshots
+
+## Notes for Employers
+
+This project demonstrates practical automation work across controls, wiring, motion control, sensor integration, mechanical design, troubleshooting, and staged machine sequencing. The project is still being finalized, so this repository is intended to document both the final system and the engineering process used to get it working.
