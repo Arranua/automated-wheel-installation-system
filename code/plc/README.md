@@ -1,6 +1,6 @@
 # PLC Code
 
-Add PLC screenshots, exported program files, ladder logic images, or state-machine notes here.
+PLC screenshots, exported program files, ladder logic images, or state-machine notes here.
 
 Expected responsibilities:
 
