@@ -3,6 +3,10 @@
 > PLC-coordinated automation project for removing wheels from a small vehicle chassis, feeding replacement wheels from magazines, picking them up with a gripper, and installing them onto axles.
 
 ![Project showcase placeholder](images/showcase/README.md)
+<img width="1255" height="730" alt="image" src="https://github.com/user-attachments/assets/b9a8cfd3-b4f0-4266-a194-5f596e3387df" />
+<img width="784" height="695" alt="image" src="https://github.com/user-attachments/assets/2cfb06b4-a30e-48e7-963c-851ce5514a7e" />
+<img width="903" height="543" alt="image" src="https://github.com/user-attachments/assets/1704f746-11ca-431f-b262-99f5945a4733" />
+
 
 ## Project Status
 
@@ -86,6 +90,6 @@ The machine is a small manufacturing-style automation cell. A PLC coordinates th
 - sensor placement photos
 - PLC/HMI/Node-RED screenshots
 
-## Notes for Employers
+## Notes
 
 This project demonstrates practical automation work across controls, wiring, motion control, sensor integration, mechanical design, troubleshooting, and staged machine sequencing. The project is still being finalized, so this repository is intended to document both the final system and the engineering process used to get it working.
