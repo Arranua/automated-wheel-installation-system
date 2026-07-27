@@ -1,7 +1,4 @@
 # ESP32 Gantry Code
-
-Add the gantry controller `.ino` file here.
-
 Expected responsibilities:
 
 - X/Y/Z stepper motion
