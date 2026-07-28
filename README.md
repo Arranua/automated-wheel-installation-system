@@ -1,6 +1,8 @@
 # Automated Wheel Installation and Removal Cell
 
 > PLC-coordinated automation project for removing wheels from a small vehicle chassis, feeding replacement wheels from magazines, picking them up with a gripper, and installing them onto axles.
+
+
 [![Automated Wheel Installation System Demo](https://img.youtube.com/vi/_Y8QUHR4chs/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID)
 https://www.youtube.com/watch?v=_Y8QUHR4chs
 <img width="1255" height="730" alt="image" src="https://github.com/user-attachments/assets/b9a8cfd3-b4f0-4266-a194-5f596e3387df" />
