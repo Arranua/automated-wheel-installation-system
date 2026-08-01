@@ -1,18 +1,22 @@
 # Automated Wheel Installation and Removal Cell
 
 > PLC-coordinated automation project for removing wheels from a small vehicle chassis, feeding replacement wheels from magazines, picking them up with a gripper, and installing them onto axles.
+>
+> Will be displayed at the Summer 2026 Seneca TechSparks: Applied Technology Design Showcase
 
 
 [![Automated Wheel Installation System Demo](https://img.youtube.com/vi/_Y8QUHR4chs/0.jpg)](https://www.youtube.com/watch?v=_Y8QUHR4chs)
 
 https://www.youtube.com/watch?v=_Y8QUHR4chs
-<img width="1255" height="730" alt="image" src="https://github.com/user-attachments/assets/b9a8cfd3-b4f0-4266-a194-5f596e3387df" />
-<img width="784" height="695" alt="image" src="https://github.com/user-attachments/assets/2cfb06b4-a30e-48e7-963c-851ce5514a7e" />
-<img width="903" height="543" alt="image" src="https://github.com/user-attachments/assets/1704f746-11ca-431f-b262-99f5945a4733" />
 
 <img width="1603" height="826" alt="image" src="https://github.com/user-attachments/assets/e15f44a0-fc02-49ba-91d8-36f4d688364f" />
 <img width="1603" height="826" alt="image" src="https://github.com/user-attachments/assets/6612b8b7-e2bd-4775-8660-401c4d973110" />
 <img width="1603" height="826" alt="image" src="https://github.com/user-attachments/assets/118bb256-2a8a-455c-beff-9e50559b305c" />
+
+<img width="1255" height="730" alt="image" src="https://github.com/user-attachments/assets/b9a8cfd3-b4f0-4266-a194-5f596e3387df" />
+<img width="784" height="695" alt="image" src="https://github.com/user-attachments/assets/2cfb06b4-a30e-48e7-963c-851ce5514a7e" />
+<img width="903" height="543" alt="image" src="https://github.com/user-attachments/assets/1704f746-11ca-431f-b262-99f5945a4733" />
+
 
 ## Project Status
 
