@@ -60,12 +60,3 @@ This page documents the project wiring.
 <img width="1038" height="813" alt="image" src="https://github.com/user-attachments/assets/d7f50a7e-4a04-42e6-864b-582d0aaebfab" />
 <img width="628" height="774" alt="image" src="https://github.com/user-attachments/assets/a0a21682-771e-4467-a640-f144b2fd18c8" />
 
-
-## Solenoid Switching Note
-
-The solenoid is treated as an inductive load. It should be switched through a properly rated relay or MOSFET driver, not directly from a controller signal pin. A flyback diode should be installed across the solenoid coil.
-
-```text
-Diode stripe/cathode -> solenoid positive
-Diode non-stripe/anode -> solenoid negative
-```
