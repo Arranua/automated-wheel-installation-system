@@ -1,6 +1,6 @@
 # 04 - Electrical and Wiring
 
-This page documents the current wiring plan. Final wiring diagrams and photos will be added after final build completion.
+This page documents the project wiring.
 
 ## Power Distribution
 
@@ -11,25 +11,29 @@ This page documents the current wiring plan. Final wiring diagrams and photos wi
 | 3.3 VDC | ESP32 GPIO logic | do not connect 24 V directly to GPIO |
 | GND / 0 V | common DC reference | common ground for DC supplies where required |
 
-## PLC Inputs Draft
+<img width="1352" height="795" alt="image" src="https://github.com/user-attachments/assets/37e2e4c7-45ca-4836-b9a2-a963935192e8" />
+
+
+## PLC Inputs 
 
 | PLC Input | Device | Signal Type | Purpose |
 |---|---|---|---|
-| TODO | Start button | pushbutton | start cycle |
-| TODO | Reset / stop input | pushbutton / safety input | reset or stop sequence |
-| TODO | Car sensor | PNP capacitive | confirms car present |
-| TODO | Magazine ready sensor | photoelectric | confirms wheel available |
-| TODO | Pickup sensor | retroreflective / photoelectric | confirms wheel at pickup zone |
-| TODO | ESP32 done signal | relay/opto contact | confirms subsystem step complete |
+| 1 | Stage Finished | relay/opto contact | confirms subsystem step complete |
+| 2 | Start button | pushbutton | start cycle |
+| 3 | Reset / stop input | pushbutton / safety input | reset or stop sequence |
+| 4 | Car sensor | PNP capacitive | confirms car present |
+| 5 | Magazine ready sensor | photoelectric | confirms wheel available |
+| 7 | Pickup sensor | retroreflective / photoelectric | confirms wheel at pickup zone |
 
 ## PLC Outputs Draft
 
 | PLC Output | Connected Device | Purpose |
 |---|---|---|
-| TODO | ESP32 gantry start input | starts gantry motion stage |
-| TODO | ESP32 magazine start input | starts wheel feed action |
-| TODO | shared ESTOP / abort relay | sends abort signal to controllers |
-| TODO | solenoid relay driver | opens trapdoor/drop gate |
+| 1 | ESP32 gantry start input | starts gantry motion stage |
+| 3 | ESP32 magazine start input | starts wheel feed action |
+| 4 | Wheel type selector | tells magazine controller which wheel to feed |
+| 6 | shared ESTOP / abort relay | sends abort signal to controllers |
+| 8 | solenoid relay driver | opens trapdoor/drop gate |
 
 ## ESP32 Gantry Pinout
 
@@ -51,6 +55,11 @@ This page documents the current wiring plan. Final wiring diagrams and photos wi
 | GPIO 33 | PLC START | active-low start input |
 | GPIO 17 | PLC DONE | done pulse output |
 | GPIO 5 | ESTOP | active-low abort input |
+
+<img width="913" height="799" alt="image" src="https://github.com/user-attachments/assets/dcb3a521-9f91-4bbb-9f8c-e537f965411f" />
+<img width="1038" height="813" alt="image" src="https://github.com/user-attachments/assets/d7f50a7e-4a04-42e6-864b-582d0aaebfab" />
+<img width="628" height="774" alt="image" src="https://github.com/user-attachments/assets/a0a21682-771e-4467-a640-f144b2fd18c8" />
+
 
 ## Solenoid Switching Note
 
