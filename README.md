@@ -89,17 +89,6 @@ The machine is a small manufacturing-style automation cell. A PLC coordinates th
 8. Process repeats for second wheel.
 9. PLC receives done signal and marks cycle complete.
 
-## Media To Add
-
-- final machine photo
-- 10–30 second operation video
-- NX assembly screenshot
-- wiring/control panel photo
-- gripper close-up
-- wheel magazine close-up
-- sensor placement photos
-- PLC/HMI/Node-RED screenshots
-
 ## Notes
 
 This project demonstrates practical automation work across controls, wiring, motion control, sensor integration, mechanical design, troubleshooting, and staged machine sequencing. The project is still being finalized, so this repository is intended to document both the final system and the engineering process used to get it working.
