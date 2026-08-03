@@ -18,19 +18,6 @@ https://www.youtube.com/watch?v=_Y8QUHR4chs
 <img width="903" height="543" alt="image" src="https://github.com/user-attachments/assets/1704f746-11ca-431f-b262-99f5945a4733" />
 
 
-## Project Status
-
-This repository is being built while final machine integration is still in progress. Final photos, NX assembly screenshots, wiring diagrams, and operation videos will be added after the physical build is completed.
-
-Current repo focus:
-
-- system architecture
-- component list and hardware overview
-- electrical wiring tables
-- PLC sequence description
-- ESP32 motion-control documentation
-- testing notes and troubleshooting history
-
 ## System Summary
 
 The machine is a small manufacturing-style automation cell. A PLC coordinates the main sequence and communicates with ESP32-based motion controllers. The system uses stepper-driven axes, servo grippers, wheel magazine servos, photoelectric sensors, a capacitive sensor, relay interfaces, and a solenoid-actuated wheel release mechanism.
@@ -89,6 +76,3 @@ The machine is a small manufacturing-style automation cell. A PLC coordinates th
 8. Process repeats for second wheel.
 9. PLC receives done signal and marks cycle complete.
 
-## Notes
-
-This project demonstrates practical automation work across controls, wiring, motion control, sensor integration, mechanical design, troubleshooting, and staged machine sequencing. The project is still being finalized, so this repository is intended to document both the final system and the engineering process used to get it working.
