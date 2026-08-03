@@ -25,8 +25,15 @@ Advance to next stage
   ↓
 Cycle complete
 ```
+<img width="1600" height="859" alt="image" src="https://github.com/user-attachments/assets/33a4cd66-f3ce-464b-a344-9d7351b4d156" />
+<img width="1600" height="859" alt="image" src="https://github.com/user-attachments/assets/9c5fc6d4-7b25-4cdf-8347-34b112d3afea" />
+<img width="1600" height="859" alt="image" src="https://github.com/user-attachments/assets/afc2d173-c14b-4d6b-a793-2729354c305a" />
+<img width="1600" height="859" alt="image" src="https://github.com/user-attachments/assets/4baafd37-0ba3-4516-8c31-80510e76281b" />
+<img width="1600" height="859" alt="image" src="https://github.com/user-attachments/assets/2e1704cb-e874-42f1-889f-5ae0aa649b00" />
+<img width="1600" height="859" alt="image" src="https://github.com/user-attachments/assets/39ad25d6-33c4-47e0-9a39-4ddd2bc8aeb6" />
 
-## Planned States
+
+##  States
 
 | State | Description |
 |---|---|
@@ -41,7 +48,7 @@ Cycle complete
 | Cycle Complete | PLC receives final done signal |
 | Stop/Fault | sequence stops and waits for reset |
 
-## Handshake Concept
+## Handshaking
 
 ```text
 PLC output START -> ESP32 input START
