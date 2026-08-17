@@ -7,8 +7,10 @@
 <img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/1876aae3-2691-4ccb-a2f5-76cadbe5dbc1" />
 
 [![Automated Wheel Installation System Demo](https://img.youtube.com/vi/_Y8QUHR4chs/0.jpg)](https://youtube.com/watch?v=pre65Hroukg)
-
+**Video of demo at showcase**
 https://youtube.com/watch?v=pre65Hroukg
+
+
 https://www.youtube.com/watch?v=_Y8QUHR4chs
 
 <img width="1603" height="826" alt="image" src="https://github.com/user-attachments/assets/e15f44a0-fc02-49ba-91d8-36f4d688364f" />
