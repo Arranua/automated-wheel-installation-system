@@ -26,7 +26,3 @@ The machine includes common industrial automation concepts:
 - start/stop/reset behavior
 - staged cycle execution
 - mechanical and electrical troubleshooting
-
-## Current Build Status
-
-Final integration is in progress. This repository currently contains written documentation and placeholders for final photos, CAD screenshots, operation videos, and wiring diagrams.
