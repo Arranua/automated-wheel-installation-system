@@ -2,7 +2,7 @@
 
 > PLC-coordinated automation project for removing wheels from a small vehicle chassis, feeding replacement wheels from magazines, picking them up with a gripper, and installing them onto axles.
 >
-**Top Project Award - Seneca TechSparks Summer 2026 Applied Technology Design Showcase**
+**Best Overall Project Award - Seneca TechSparks Summer 2026 Applied Technology Design Showcase**
 
 <img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/1876aae3-2691-4ccb-a2f5-76cadbe5dbc1" />
 
